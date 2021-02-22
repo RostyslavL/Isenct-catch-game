@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+        <title> Insect Catch Game </title>
+    <script src="https://kit.fontawesome.com/eb27aedf02.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="screen">
+        <h1>Try To Catch A Bug</h1>
+        <button class="btn" id="start-btn"> Start Game </button>
+    </div>
+    <div class="screen">
+        <h1>Choose Your Insect</h1>
+        <ul class="insects-list">
+            <li>
+                <button id="choose-insect-btn">
+                    <p>Fly</p>
+                    <img src="/img/Fly.png" alt="fly">
+                </button>
+            </li>
+            <li>
+                <button id="choose-insect-btn">
+                    <p>Mosquito</p>
+                    <img src="/img/Mosquito.png" alt="Mosquito">
+                </button>
+            </li>
+            <li>
+                <button id="choose-insect-btn">
+                    <p>Fly</p>
+                    <img src="/img/Roach.png" alt="Roach">
+                </button>
+            </li>
+            <li>
+                <button id="choose-insect-btn">
+                    <p>Fly</p>
+                    <img src="/img/Spider.png" alt="Spider">
+                </button>
+            </li>
+            <li>
+                <button id="choose-insect-btn">
+                    <p>Fly</p>
+                    <img src="/img/Wasp.png" alt="Wasp">
+                </button>
+            </li>
+        </ul>
+    </div>
+    <div class="screen game-container">
+        <h3 id="time"> Time: 00:00 </h3>
+        <h3 id="score"> Score: 0 </h3>
+        <h5 id="message"> 
+            Are you satisfied , <br>
+            there is no winner in an infinite game
+
+        </h5>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
