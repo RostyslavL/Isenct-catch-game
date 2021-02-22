@@ -28,6 +28,7 @@ h1{
   justify-content: center;
   height:100vh;
   width: 100vw;
+  transition:  margin .6s ease-out;
 }
 
 .choose-insect-btn img{
